@@ -1,0 +1,27 @@
+{
+  "scoring": {
+    "levelThresholds": {
+      "L": [4, 6],
+      "M": [7, 9],
+      "H": [10, 12]
+    },
+    "levelNumeric": {
+      "L": 1,
+      "M": 2,
+      "H": 3
+    },
+    "maxDistance": 12,
+    "fallbackThreshold": 60
+  },
+  "display": {
+    "title": "EATI 食格测试",
+    "subtitle": "MBTI 测不准你的灵魂，但 EATI 能测出你的胃。",
+    "author": "厦门大学美食协会 · 出品",
+    "funNote": "本测试仅供娱乐，别拿它当诊断、面试、相亲、分手、减肥指南或人生判决书。",
+    "funNoteSpecial": "本测试仅供娱乐。隐藏人格和 404 兜底都属于作者故意埋的损招，请勿将其作为医学、心理学、相学、命理学或灵异学依据。"
+  },
+  "hotpotGate": {
+    "questionId": "hotpot_gate_q1",
+    "triggerValue": 2
+  }
+}

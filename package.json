@@ -1,0 +1,14 @@
+{
+  "name": "eati",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "EATI 食格测试 · 厦门大学美食协会出品 · 致敬 SBTI",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}
