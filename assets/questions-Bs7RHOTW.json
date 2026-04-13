@@ -1,0 +1,258 @@
+{
+  "main": [
+    {
+      "id": "q_gut1",
+      "dim": "GUT",
+      "text": "我饿得很快，不吃就手抖。",
+      "options": [
+        { "label": "不是", "value": 1 },
+        { "label": "偶尔", "value": 2 },
+        { "label": "是", "value": 3 }
+      ]
+    },
+    {
+      "id": "q_gut2",
+      "dim": "GUT",
+      "text": "上午十点刚吃完早饭。十点十分，我的大脑说「不饿」。十点十五，我的手已经伸向了零食柜。拿出薯片吃三片，放回。十点二十，又拿出来，又吃三片。我不知道自己在干什么，我只是需要咀嚼点什么。",
+      "options": [
+        { "label": "这就是我", "value": 3 },
+        { "label": "有时候吧", "value": 2 },
+        { "label": "看不懂", "value": 1 }
+      ]
+    },
+    {
+      "id": "q_gut3",
+      "dim": "GUT",
+      "text": "两人份的量，我一个人吃得完。",
+      "options": [
+        { "label": "没干过", "value": 1 },
+        { "label": "极限状态可以", "value": 2 },
+        { "label": "家常便饭", "value": 3 }
+      ]
+    },
+    {
+      "id": "q_gut4",
+      "dim": "GUT",
+      "text": "自助餐，您一般吃到几分饱停？",
+      "options": [
+        { "label": "八分", "value": 1 },
+        { "label": "十分", "value": 2 },
+        { "label": "老板报警", "value": 3 }
+      ]
+    },
+    {
+      "id": "q_tng1",
+      "dim": "TNG",
+      "text": "菜里看到香菜，我翻脸。",
+      "options": [
+        { "label": "认同", "value": 1 },
+        { "label": "看心情", "value": 2 },
+        { "label": "不认同", "value": 3 }
+      ]
+    },
+    {
+      "id": "q_tng2",
+      "dim": "TNG",
+      "text": "火锅锅底，您选：",
+      "options": [
+        { "label": "清汤", "value": 1 },
+        { "label": "鸳鸯", "value": 2 },
+        { "label": "变态辣", "value": 3 }
+      ]
+    },
+    {
+      "id": "q_tng3",
+      "dim": "TNG",
+      "text": "东南亚夜市，朋友递给您一袋油炸蟋蟀配蒜香。那些油亮的小生物在灯光下仿佛还在动。",
+      "options": [
+        { "label": "塞回去：你吃你吃", "value": 1 },
+        { "label": "闭眼先来一只", "value": 2 },
+        { "label": "吃掉半袋，问还有没有", "value": 3 }
+      ]
+    },
+    {
+      "id": "q_tng4",
+      "dim": "TNG",
+      "text": "我能接受的最猎奇食物：",
+      "options": [
+        { "label": "榴莲已经是极限", "value": 1 },
+        { "label": "臭豆腐、鱼腥草也行", "value": 2 },
+        { "label": "蚕蛹毛蛋血旺主动点", "value": 3 }
+      ]
+    },
+    {
+      "id": "q_eye1",
+      "dim": "EYE",
+      "text": "米其林餐厅，主菜上桌：焦糖色的小小和牛，翡翠绿的酱汁，三颗精致的樱桃番茄，一片自带柔光的薄荷叶。卖相堪比美术馆藏品。您下一个动作：",
+      "options": [
+        { "label": "开切", "value": 1 },
+        { "label": "随手拍一张", "value": 2 },
+        { "label": "换三个角度拍", "value": 3 }
+      ]
+    },
+    {
+      "id": "q_eye2",
+      "dim": "EYE",
+      "text": "菜上桌，我必须先拍照再吃。",
+      "options": [
+        { "label": "从不", "value": 1 },
+        { "label": "看菜", "value": 2 },
+        { "label": "每次", "value": 3 }
+      ]
+    },
+    {
+      "id": "q_eye3",
+      "dim": "EYE",
+      "text": "选餐厅，您第一眼看什么？",
+      "options": [
+        { "label": "人均", "value": 1 },
+        { "label": "评分", "value": 2 },
+        { "label": "环境图", "value": 3 }
+      ]
+    },
+    {
+      "id": "q_eye4",
+      "dim": "EYE",
+      "text": "外卖到家，您怎么吃？",
+      "options": [
+        { "label": "就在盒子里吃", "value": 1 },
+        { "label": "倒碗里吃", "value": 2 },
+        { "label": "瓷盘、刀叉、仪式感", "value": 3 }
+      ]
+    },
+    {
+      "id": "q_leg1",
+      "dim": "LEG",
+      "text": "新店开业第一天我就想冲。",
+      "options": [
+        { "label": "不会", "value": 1 },
+        { "label": "看情况", "value": 2 },
+        { "label": "是我", "value": 3 }
+      ]
+    },
+    {
+      "id": "q_leg2",
+      "dim": "LEG",
+      "text": "朋友说一家神店在 40 分钟车程外，您：",
+      "options": [
+        { "label": "呵呵", "value": 1 },
+        { "label": "周末去吧", "value": 2 },
+        { "label": "现在就走", "value": 3 }
+      ]
+    },
+    {
+      "id": "q_leg3",
+      "dim": "LEG",
+      "text": "常去的那家店，我能一眼不看菜单点完。",
+      "options": [
+        { "label": "认同", "value": 1 },
+        { "label": "偶尔", "value": 2 },
+        { "label": "不认同", "value": 3 }
+      ]
+    },
+    {
+      "id": "q_leg4",
+      "dim": "LEG",
+      "text": "朋友神秘兮兮凑过来：「我知道一家店，开在地下室，老板精神状态不稳定，菜名叫「我妈骂我」「无尽的悲伤」「世界毁灭之前的最后一顿」。保证你喜欢。」",
+      "options": [
+        { "label": "建议他先看医生", "value": 1 },
+        { "label": "下次吧", "value": 2 },
+        { "label": "现在就去", "value": 3 }
+      ]
+    },
+    {
+      "id": "q_crw1",
+      "dim": "CRW",
+      "text": "一个人进餐厅吃饭很自在。",
+      "options": [
+        { "label": "是", "value": 1 },
+        { "label": "还行", "value": 2 },
+        { "label": "社死", "value": 3 }
+      ]
+    },
+    {
+      "id": "q_crw2",
+      "dim": "CRW",
+      "text": "发现一家宝藏小店，您会：",
+      "options": [
+        { "label": "守口如瓶", "value": 1 },
+        { "label": "告诉几个好友", "value": 2 },
+        { "label": "拉群@所有人", "value": 3 }
+      ]
+    },
+    {
+      "id": "q_crw3",
+      "dim": "CRW",
+      "text": "饭桌上我是气氛担当。",
+      "options": [
+        { "label": "不是", "value": 1 },
+        { "label": "看人", "value": 2 },
+        { "label": "是", "value": 3 }
+      ]
+    },
+    {
+      "id": "q_crw4",
+      "dim": "CRW",
+      "text": "10 人大圆桌聚餐，转盘转到您面前，是您超爱吃的菜，只剩 3 块。",
+      "options": [
+        { "label": "夹两块", "value": 1 },
+        { "label": "夹一块给旁边", "value": 2 },
+        { "label": "分菜给每个人", "value": 3 }
+      ]
+    },
+    {
+      "id": "q_soul1",
+      "dim": "SOUL",
+      "text": "不开心的时候就想吃点什么。",
+      "options": [
+        { "label": "不会", "value": 1 },
+        { "label": "偶尔", "value": 2 },
+        { "label": "必须", "value": 3 }
+      ]
+    },
+    {
+      "id": "q_soul2",
+      "dim": "SOUL",
+      "text": "下班路上心想「今天辛苦了，值得吃」，然后：",
+      "options": [
+        { "label": "值得回家睡觉", "value": 1 },
+        { "label": "值得好一点的外卖", "value": 2 },
+        { "label": "值得那家 498 的日料", "value": 3 }
+      ]
+    },
+    {
+      "id": "q_soul3",
+      "dim": "SOUL",
+      "text": "「这顿饭对我来说不只是一顿饭。」",
+      "options": [
+        { "label": "看不懂", "value": 1 },
+        { "label": "有时候是", "value": 2 },
+        { "label": "完全是", "value": 3 }
+      ]
+    },
+    {
+      "id": "q_soul4",
+      "dim": "SOUL",
+      "text": "下午三点点了奶茶。四点又想喝一杯。五点同事问谁要奶茶，我说不喝了。五点十分我开始用意念回想那杯奶茶的味道。五点十五我点了第二杯。",
+      "options": [
+        { "label": "这就是我", "value": 3 },
+        { "label": "偶尔这样", "value": 2 },
+        { "label": "不是我", "value": 1 }
+      ]
+    }
+  ],
+  "special": [
+    {
+      "id": "hotpot_gate_q1",
+      "special": true,
+      "kind": "hotpot_gate",
+      "text": "最后一题：明天世界只剩一种食物，您选：",
+      "options": [
+        { "label": "白米饭", "value": 1 },
+        { "label": "火锅", "value": 2 },
+        { "label": "随便", "value": 3 }
+      ],
+      "behavior": "Always appended at the END of quiz. If value 2 (火锅) selected, HOT-T hidden personality is activated."
+    }
+  ]
+}
