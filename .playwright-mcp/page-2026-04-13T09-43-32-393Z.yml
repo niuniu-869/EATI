@@ -1,0 +1,14 @@
+- generic [ref=e2]:
+  - generic [ref=e14]:
+    - generic [ref=e16]: 1 / 25
+    - paragraph [ref=e18]: 一家从小吃到大的面馆，您推门进去，老板娘不用抬头就说：「哎呦你来啦，还是老三样？」
+    - generic [ref=e19]:
+      - button "「对，老三样。这辈子在这里点过的东西加起来不超过 5 种。」" [ref=e20] [cursor=pointer]
+      - button "「老三样，您家最近有啥新的推荐吗？」" [ref=e21] [cursor=pointer]
+      - button "「今天换一下，试试那个新推出的招牌。」老板娘微微一愣。" [ref=e22] [cursor=pointer]
+  - contentinfo [ref=e10]:
+    - text: 本测试由
+    - strong [ref=e11]: 厦门大学美食协会
+    - text: 出品 · 一个吃遍厦门的学生社团 · 开源于
+    - link "GitHub" [ref=e12] [cursor=pointer]:
+      - /url: https://github.com/niuniu-869/EATI

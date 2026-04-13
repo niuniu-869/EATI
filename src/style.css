@@ -90,8 +90,20 @@ body {
 .intro-sub {
   font-size: 0.9rem;
   color: var(--text-secondary);
-  margin-bottom: 28px;
+  margin-bottom: 12px;
   letter-spacing: 0.02em;
+}
+
+.intro-hint {
+  font-size: 0.8rem;
+  color: var(--accent);
+  margin-bottom: 24px;
+  line-height: 1.7;
+  padding: 10px 14px;
+  background: var(--accent-light);
+  border-radius: 8px;
+  text-align: left;
+  opacity: 0.85;
 }
 
 .intro-credit {
@@ -415,6 +427,14 @@ body {
   gap: 12px;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.copy-hint {
+  margin-top: 10px;
+  font-size: 0.8rem;
+  color: var(--accent);
+  text-align: center;
+  animation: fadeIn 0.3s ease;
 }
 
 /* ========== Footer ========== */
