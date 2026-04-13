@@ -1,0 +1,16 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - heading "MBTI 测不准你的灵魂， 但 EATI 能测出你的胃。" [level=1] [ref=e5]:
+      - text: MBTI 测不准你的灵魂，
+      - text: 但 EATI 能测出你的胃。
+    - paragraph [ref=e6]: 25 题 · 6 维度 · 23 种人格 · 2 个隐藏彩蛋
+    - paragraph [ref=e7]: 你可能是：饕餮 / 小鸟胃 / 精致拍照党 / 夜宵教徒 / 情绪化进食 / 减肥诈骗犯 / 火锅教祖 / ……
+    - button "开始测试" [ref=e8] [cursor=pointer]
+    - paragraph [ref=e9]: 开源项目 · 致敬 B 站 UP 主 @蛆肉儿串儿 的原创 SBTI
+    - paragraph [ref=e10]: 本测试仅供娱乐
+  - contentinfo [ref=e11]:
+    - text: 本测试由
+    - strong [ref=e12]: 厦门大学美食协会
+    - text: 出品 · 一个吃遍厦门的学生社团 · 开源于
+    - link "GitHub" [ref=e13] [cursor=pointer]:
+      - /url: https://github.com/niuniu-869/EATI
