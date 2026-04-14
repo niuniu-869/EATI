@@ -2,7 +2,7 @@
   "standard": [
     {
       "code": "TAO-T",
-      "pattern": "H-H-L-M-M-L",
+      "pattern": "H-H-L-L-M-L",
       "themeColor": "#D93B20",
       "emoji": ["🍖", "🔥"],
       "cn": "饕餮",
@@ -20,7 +20,7 @@
     },
     {
       "code": "ROAR",
-      "pattern": "M-H-L-L-M-M",
+      "pattern": "M-H-L-H-L-M",
       "themeColor": "#7A3520",
       "emoji": ["🦖", "🥩"],
       "cn": "食肉霸王龙",
@@ -38,7 +38,7 @@
     },
     {
       "code": "XENO",
-      "pattern": "M-H-M-H-L-H",
+      "pattern": "H-H-M-H-L-M",
       "themeColor": "#8B3A62",
       "emoji": ["🦗", "👽"],
       "cn": "异食癖",
@@ -47,7 +47,7 @@
     },
     {
       "code": "PICKY",
-      "pattern": "L-L-L-L-M-M",
+      "pattern": "L-L-L-L-L-L",
       "themeColor": "#E8A87C",
       "emoji": ["🙅", "🌿"],
       "cn": "挑食宝宝",
@@ -65,7 +65,7 @@
     },
     {
       "code": "NICE",
-      "pattern": "L-M-H-H-M-H",
+      "pattern": "L-L-H-H-M-H",
       "themeColor": "#D98FA8",
       "emoji": ["📸", "✨"],
       "cn": "精致拍照党",
@@ -74,7 +74,7 @@
     },
     {
       "code": "ONLY-1",
-      "pattern": "M-H-H-H-L-M",
+      "pattern": "M-L-H-H-L-M",
       "themeColor": "#2E4057",
       "emoji": ["🍜", "🗿"],
       "cn": "孤独的美食家",
@@ -83,7 +83,7 @@
     },
     {
       "code": "PAIR",
-      "pattern": "M-M-M-M-H-H",
+      "pattern": "L-M-M-M-L-H",
       "themeColor": "#D96E8A",
       "emoji": ["🥢", "💕"],
       "cn": "饭搭子依赖",
@@ -110,7 +110,7 @@
     },
     {
       "code": "SPIC-Y",
-      "pattern": "M-H-M-M-M-H",
+      "pattern": "L-H-L-H-M-H",
       "themeColor": "#B8201A",
       "emoji": ["🌶️", "🔥"],
       "cn": "辣党",
@@ -119,7 +119,7 @@
     },
     {
       "code": "SWEET",
-      "pattern": "L-H-H-M-M-H",
+      "pattern": "L-L-H-H-H-H",
       "themeColor": "#E88FA8",
       "emoji": ["🍰", "👑"],
       "cn": "甜邪教",
@@ -128,7 +128,7 @@
     },
     {
       "code": "W0K!",
-      "pattern": "M-L-M-L-L-H",
+      "pattern": "M-L-L-L-L-H",
       "themeColor": "#C9953E",
       "emoji": ["🍳", "💌"],
       "cn": "妈味成瘾者",
@@ -137,7 +137,7 @@
     },
     {
       "code": "DELE",
-      "pattern": "H-M-L-L-M-M",
+      "pattern": "H-M-L-L-M-L",
       "themeColor": "#7B8B9A",
       "emoji": ["🍽️", "✓"],
       "cn": "光盘强迫症",
@@ -146,7 +146,7 @@
     },
     {
       "code": "M15",
-      "pattern": "H-H-L-M-H-H",
+      "pattern": "H-H-L-H-H-H",
       "themeColor": "#3D2B4E",
       "emoji": ["🌙", "🍜"],
       "cn": "夜宵教徒",
@@ -155,7 +155,7 @@
     },
     {
       "code": "EMO-T",
-      "pattern": "H-H-M-M-L-H",
+      "pattern": "H-H-M-L-L-H",
       "themeColor": "#6B4E7B",
       "emoji": ["🧋", "💔"],
       "cn": "情绪化进食",
@@ -173,7 +173,7 @@
     },
     {
       "code": "ZZZZ",
-      "pattern": "M-M-L-L-M-L",
+      "pattern": "M-M-L-L-H-L",
       "themeColor": "#8A8A7A",
       "emoji": ["😴", "🍽️"],
       "cn": "无欲吃饭人",
@@ -182,7 +182,7 @@
     },
     {
       "code": "REWD",
-      "pattern": "M-M-H-M-M-H",
+      "pattern": "M-M-H-M-H-H",
       "themeColor": "#C2691E",
       "emoji": ["🎁", "🍣"],
       "cn": "奖励型选手",
@@ -191,7 +191,7 @@
     },
     {
       "code": "K-OL",
-      "pattern": "M-H-H-H-H-H",
+      "pattern": "M-H-H-H-H-L",
       "themeColor": "#E04080",
       "emoji": ["🎬", "✨"],
       "cn": "探店吹哨人",
@@ -200,7 +200,7 @@
     },
     {
       "code": "ISO-8",
-      "pattern": "L-M-L-L-L-M",
+      "pattern": "L-M-H-L-L-M",
       "themeColor": "#4A6B7C",
       "emoji": ["🫣", "🍽️"],
       "cn": "饭局社恐",
