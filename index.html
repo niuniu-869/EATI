@@ -2,47 +2,95 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>EATI 食格测试 · 你是哪种吃货？</title>
-  <meta name="description" content="MBTI 测不准你的灵魂，但 EATI 能测出你的胃。厦门大学美食协会出品的 25 题吃货人格测试。" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>EATI 食格档案 · VOL.01 · 你是哪种吃货？</title>
+  <meta name="description" content="MBTI 测不准你的灵魂，但 EATI 能测出你的胃。厦门大学美食协会出品的 25 题吃货人格测试，23 种人格 + 2 个隐藏彩蛋。" />
+  <meta name="theme-color" content="#F5EDE0" />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍜</text></svg>" />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
   <link rel="stylesheet" href="/src/style.css" />
 </head>
 <body>
   <div id="app">
-    <!-- 首页 -->
+    <!-- ══════════════ 首页 ══════════════ -->
     <section id="page-intro" class="page active">
       <div class="card intro-card">
-        <h1 class="intro-title">MBTI 测不准你的灵魂，<br/>但 EATI 能测出你的胃。</h1>
-        <p class="intro-sub">25 题 · 6 维度 · 23 种人格 · 2 个隐藏彩蛋</p>
-        <p class="intro-hint">你可能是：饕餮 / 小鸟胃 / 精致拍照党 / 夜宵教徒 / 情绪化进食 / 减肥诈骗犯 / 火锅教祖 / ……</p>
-        <button id="btn-start" class="btn btn-primary">开始测试</button>
-        <p class="intro-credit">开源项目 · 致敬 B 站 UP 主 @蛆肉儿串儿 的原创 SBTI</p>
-        <p class="intro-note">本测试仅供娱乐</p>
+        <div class="intro-sticker">🍜</div>
+
+        <div class="kicker">
+          <span>EATI · VOL.01 · 食格档案</span>
+          <span class="kicker-emoji">🔥</span>
+        </div>
+
+        <h1 class="intro-title">
+          MBTI 测不准<br />
+          你的灵魂，<br />
+          但 EATI 能<br />
+          测出<span class="hl">你的胃</span>。
+        </h1>
+
+        <p class="intro-meta">
+          25 题<span class="sep">/</span>6 维度<span class="sep">/</span>23 人格<span class="sep">/</span>2 彩蛋
+        </p>
+
+        <div class="intro-hint">
+          <span class="intro-hint-label">档案目录 · 节选</span>
+          <div class="intro-hint-list">
+            <span class="tag">饕餮</span><span class="tag">小鸟胃</span><span class="tag">夜宵教徒</span><span class="tag">精致拍照党</span><span class="tag">火锅教祖</span><span class="tag">减肥诈骗犯</span><span class="tag">素食圣徒</span><span class="tag">下水道美食家</span><span class="tag">妈味成瘾者</span><span class="tag">+14 种</span>
+          </div>
+        </div>
+
+        <div class="intro-cta-wrap">
+          <button id="btn-start" class="btn btn-primary">开始测试 →</button>
+          <p class="intro-cta-note">3 分钟就能知道答案</p>
+        </div>
+
+        <p class="intro-credit">
+          开源项目 · 致敬 B 站 UP 主 <strong>@蛆肉儿串儿</strong> 的原创 SBTI<br />
+          本测试仅供娱乐，请勿作为诊断 / 面试 / 相亲依据
+        </p>
       </div>
     </section>
 
-    <!-- 答题页 -->
+    <!-- ══════════════ 答题页 ══════════════ -->
     <section id="page-quiz" class="page">
       <div class="card quiz-card">
-        <div class="progress-bar">
-          <div class="progress-fill" id="progress-fill"></div>
+        <div class="quiz-head">
+          <div class="progress-dots" id="progress-dots" aria-label="进度"></div>
+          <div class="progress-text">
+            <span id="progress-text">Q.01 / 25</span>
+            <span id="progress-pct">0%</span>
+          </div>
         </div>
-        <div class="progress-text" id="progress-text">0 / 25</div>
-        <div class="question-area">
+
+        <div class="question-area" id="question-area">
+          <div class="question-no" id="question-no">Q.01 · 档案收录</div>
           <p class="question-text" id="question-text"></p>
+          <div class="question-emoji" id="question-emoji" aria-hidden="true"></div>
+          <div class="options" id="options"></div>
         </div>
-        <div class="options" id="options"></div>
+
+        <p class="quiz-hint">按 A · B · C 键快速选择</p>
       </div>
     </section>
 
-    <!-- 结果页 -->
+    <!-- ══════════════ 结果页 ══════════════ -->
     <section id="page-result" class="page">
       <div class="card result-card" id="result-card">
-        <div class="result-kicker" id="result-kicker">你的主食格</div>
+        <div class="result-kicker-row">
+          <span class="result-kicker-vol">EATI · VOL.01</span>
+          <span class="result-kicker-mode" id="result-kicker">食格档案</span>
+        </div>
+
+        <div class="result-label" id="result-label-kicker">你的主食格</div>
+
         <div class="result-code" id="result-code"></div>
         <div class="result-name" id="result-name"></div>
-        <div class="result-badge" id="result-badge"></div>
+
+        <div class="result-stickers" id="result-stickers"></div>
+
+        <div class="result-stamp" id="result-badge"></div>
+
         <div class="result-intro" id="result-intro"></div>
         <div class="result-desc" id="result-desc"></div>
 
@@ -51,29 +99,41 @@
           <div class="secondary-info" id="secondary-info"></div>
         </div>
 
-        <h3 class="section-title">六维食格画像</h3>
-        <canvas id="radar-chart" width="320" height="320"></canvas>
+        <div class="divider-stars">✦ · ✦ · ✦</div>
+
+        <h3 class="section-title">
+          六维食格画像
+          <span class="sub">SIX-SENSE RADAR</span>
+        </h3>
+        <div class="radar-wrap" id="radar-wrap"></div>
+
         <div class="dimensions-detail" id="dimensions-detail"></div>
 
-        <div class="result-top3">
-          <h3 class="section-title">最佳匹配 TOP 5</h3>
-          <div id="top-list"></div>
-        </div>
+        <div class="divider-stars">✦ · ✦ · ✦</div>
+
+        <h3 class="section-title">
+          最佳匹配 TOP 5
+          <span class="sub">CLOSEST TYPES</span>
+        </h3>
+        <div class="top-list" id="top-list"></div>
 
         <div class="disclaimer" id="disclaimer"></div>
 
         <div class="result-actions">
-          <button id="btn-copy" class="btn btn-primary">复制朋友圈文案</button>
-          <button id="btn-download" class="btn btn-secondary">保存分享图片</button>
-          <button id="btn-restart" class="btn btn-secondary">重新测试</button>
+          <button id="btn-download" class="btn btn-primary">📸 保存食格海报</button>
+          <div class="result-actions-row">
+            <button id="btn-copy" class="btn btn-secondary">复制文案</button>
+            <button id="btn-restart" class="btn btn-secondary">重新测试</button>
+          </div>
         </div>
-        <p class="copy-hint" id="copy-hint" style="display:none">已复制，去朋友圈或群里粘贴发送</p>
+        <p class="copy-hint" id="copy-hint" style="display:none">已复制 ✓ 去朋友圈或群里粘贴发送</p>
       </div>
     </section>
 
-    <!-- 美协页脚小广告 -->
+    <!-- ══════════════ 页脚 ══════════════ -->
     <footer class="site-footer">
-      本测试由 <strong>厦门大学美食协会</strong> 出品 · 一个吃遍厦门的学生社团 · 开源于 <a href="https://github.com/niuniu-869/EATI" target="_blank" rel="noopener">GitHub</a>
+      本档案由 <strong>厦门大学美食协会</strong> 编纂 · 开源于
+      <a href="https://github.com/niuniu-869/EATI" target="_blank" rel="noopener">GitHub</a>
     </footer>
   </div>
 

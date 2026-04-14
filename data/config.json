@@ -1,9 +1,9 @@
 {
   "scoring": {
     "levelThresholds": {
-      "L": [4, 6],
-      "M": [7, 9],
-      "H": [10, 12]
+      "L": [4, 7],
+      "M": [8, 8],
+      "H": [9, 12]
     },
     "levelNumeric": {
       "L": 1,
