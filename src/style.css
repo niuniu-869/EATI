@@ -412,6 +412,24 @@ body[data-persona] {
   filter: drop-shadow(2px 3px 0 rgba(0,0,0,0.12));
 }
 
+/* 题目配图 —— 硬描边食物图鉴卡片 */
+.question-illus {
+  width: clamp(150px, 46vw, 216px);
+  aspect-ratio: 1;
+  margin: 0 auto var(--s-4);
+  border: var(--border);
+  border-radius: var(--r-sm);
+  overflow: hidden;
+  box-shadow: var(--sh-card);
+  background: #FFFDF8;
+}
+.question-illus img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .options { display: flex; flex-direction: column; gap: var(--s-3); }
 
 .btn-option {
@@ -557,6 +575,25 @@ body[data-persona] {
 }
 .result-stickers span:nth-child(1) { transform: rotate(-10deg); }
 .result-stickers span:nth-child(2) { transform: rotate(8deg); }
+
+/* 人格配图 —— 略微倾斜的食格档案照 */
+.result-illus {
+  width: clamp(196px, 62vw, 268px);
+  aspect-ratio: 1;
+  margin: 0 auto var(--s-5);
+  border: var(--border);
+  border-radius: var(--r-sm);
+  overflow: hidden;
+  box-shadow: var(--sh-card);
+  background: #FFFDF8;
+  transform: rotate(-1.6deg);
+}
+.result-illus img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 /* 印章式匹配度徽章 */
 .result-stamp {

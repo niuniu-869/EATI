@@ -1,5 +1,6 @@
 import { drawRadar } from "./chart.js";
 import { generateShareImage } from "./share.js";
+import { cfgImg, typeSlug } from "./utils.js";
 
 const LEVEL_LABEL = { L: "低", M: "中", H: "高" };
 const LEVEL_STARS = { L: "★", M: "★★", H: "★★★" };
@@ -78,6 +79,19 @@ export function renderResult(
   const stickers = document.getElementById("result-stickers");
   const emojis = primary.emoji || ["🍽️"];
   stickers.innerHTML = emojis.map((e) => `<span>${e}</span>`).join("");
+
+  // ━━━ 人格配图 ━━━
+  const illus = document.getElementById("result-illus");
+  const illusImg = document.getElementById("result-img");
+  if (illus && illusImg) {
+    illusImg.onload = () => {
+      illus.style.display = "";
+    };
+    illusImg.onerror = () => {
+      illus.style.display = "none";
+    };
+    illusImg.src = cfgImg("type", typeSlug(primary.code));
+  }
 
   // ━━━ 印章式匹配度 ━━━
   const totalDims = dimOrder.length;

@@ -1,4 +1,4 @@
-import { shuffle } from './utils.js'
+import { shuffle, cfgImg } from './utils.js'
 
 /**
  * 答题控制器 —— 单题沉浸 + 键盘 + 滑动 + 震动反馈
@@ -35,6 +35,8 @@ export function createQuiz(questions, config, onComplete) {
     qNo: document.getElementById('question-no'),
     qText: document.getElementById('question-text'),
     qEmoji: document.getElementById('question-emoji'),
+    qIllus: document.getElementById('question-illus'),
+    qImg: document.getElementById('question-img'),
     options: document.getElementById('options'),
   }
 
@@ -70,6 +72,19 @@ export function createQuiz(questions, config, onComplete) {
 
     els.qText.textContent = q.text
     els.qEmoji.textContent = isSpecial ? SPECIAL_EMOJI : (DIM_EMOJI[q.dim] || '🍽️')
+
+    // 题目配图：加载成功显示插画，失败回退到 emoji
+    els.qIllus.style.display = ''
+    els.qEmoji.style.display = 'none'
+    els.qImg.onload = () => {
+      els.qIllus.style.display = ''
+      els.qEmoji.style.display = 'none'
+    }
+    els.qImg.onerror = () => {
+      els.qIllus.style.display = 'none'
+      els.qEmoji.style.display = ''
+    }
+    els.qImg.src = cfgImg('q', q.id)
 
     // 渲染选项
     els.options.innerHTML = ''

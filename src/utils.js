@@ -29,3 +29,19 @@ export function insertAfter(arr, afterId, item) {
   if (idx >= 0) a.splice(idx + 1, 0, item)
   return a
 }
+
+/**
+ * 配图 URL：BASE_URL + cfg/<kind>/<name>.webp
+ * kind 为 'q'（题图）或 'type'（人格图）
+ */
+export function cfgImg(kind, name) {
+  return `${import.meta.env.BASE_URL}cfg/${kind}/${name}.webp`
+}
+
+/**
+ * 人格 code → 配图文件名 slug（须与 _configgen 生成脚本保持一致）
+ * 例：'TAO-T' → 'tao_t'，'W0K!' → 'w0k'
+ */
+export function typeSlug(code) {
+  return String(code).replace(/[^A-Za-z0-9]+/g, '_').replace(/^_+|_+$/g, '').toLowerCase() || 'x'
+}
